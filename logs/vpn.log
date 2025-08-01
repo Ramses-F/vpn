@@ -1,0 +1,8 @@
+[19:35:32] Démarrage VPN en mode server
+[19:35:32] Serveur en écoute sur 0.0.0.0:1194
+[19:35:44] Démarrage VPN en mode client
+[19:35:44] Connecté à 0.0.0.0:1194
+[19:35:44] Clé AES reçue et déchiffrée avec succès
+[19:35:44] Interface TUN 'tun0' créée
+[19:35:44] Clé AES échangée avec client
+[19:35:44] Interface TUN 'tun1' créée pour client
