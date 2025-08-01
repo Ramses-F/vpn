@@ -32,3 +32,43 @@ Le trafic est sécurisé à l’aide du chiffrement **AES-256-CBC** et d’un é
 ```bash
 gcc -o server server.c crypto.c tun.c network.c -lssl -lcrypto -lpthread
 gcc -o client client.c crypto.c tun.c network.c -lssl -lcrypto -lpthread
+
+🚀 Utilisation
+Lancer le serveur :
+
+sudo ./server config/server.conf
+
+Lancer le client :
+
+sudo ./client config/client.conf
+
+Assurez-vous d’avoir généré vos clés RSA au préalable.
+
+🧪 Exemple de test
+
+Après le lancement, vous pouvez tester la connectivité avec un ping entre les IPs des interfaces TUN.
+📈 Améliorations possibles
+
+    Gestion multi-clients
+
+    Authentification utilisateur
+
+    Compression de paquets
+
+    Interface graphique
+
+    Support UDP
+
+    Support TLS avec certificats
+
+👨‍💻 Auteur
+
+Projet réalisé par Fallet Kamagaté, dans un but d’apprentissage de la programmation système, réseau et sécurité en C.
+⚠️ Avertissement
+
+Ce projet est à but éducatif uniquement. Ne pas utiliser en production sans vérification de la sécurité complète.
+
+
+---
+
+Tu veux que je t’aide à créer le dépôt (fichier `.gitignore`, structure, clé RSA exemple) ?
